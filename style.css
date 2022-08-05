@@ -1,0 +1,76 @@
+.w{
+    width: 130px;
+}
+.growing{
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 70px;
+}
+.find{
+    font-weight: 900;
+    font-size: 60px;
+}
+.once{
+    font-size: 18px;
+}
+.full{
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+.get{
+    font-weight: 700;
+    font-size: 50px;
+}
+.bl{
+    text-decoration: none;
+}
+.box{
+    height: 100px;
+    width: 500px;
+    background-color: aqua;
+    border-left: 10px solid green;
+}
+@media (max-width:1200px) {
+  
+    .box{
+        width: 500px;
+    }
+}
+@media (max-width:992px) {
+  
+    .box{
+        width: 300px;
+        height: 130px;
+    }
+}
+@media (max-width:576px) {
+  
+    .box{
+        width: 400px;
+    }
+}
+@media (max-width:768px) {
+  
+    .box{
+        width: 400px;
+        height: 110px;
+    }
+}
+@media (max-width:320px) {
+  
+    .box{
+        width: 300px;
+        height: 130px;
+        
+    }
+}
+.mainbox{
+    margin-top: -80px;
+    padding-top: 90px;
+}
+.grow{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+
+}
